@@ -30,6 +30,22 @@ class ProfileController  {
     public function productIndex () { 
         return view('products');   
     }
+    
+    // public function test () {
+    //     return view('test');
+    // }
+
+    public function offers() {
+        return view('offers.index');
+    }
+
+    public function offerWebDevelopment() {
+        return view('offers.web-development'); 
+    }
+
+    public function offerOnlineStore (){
+        return view('offers.online-store');
+    }
 
 
 }

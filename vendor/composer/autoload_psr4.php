@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'eftec\\bladeone\\' => array($vendorDir . '/eftec/bladeone/lib'),
     'Pecee\\' => array($vendorDir . '/pecee/simple-router/src/Pecee'),
     'App\\' => array($baseDir . '/app'),
 );

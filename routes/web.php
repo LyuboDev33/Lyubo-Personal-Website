@@ -11,7 +11,11 @@ SimpleRouter::get('/contact', [ProfileController::class, 'contactIndex']);
 SimpleRouter::get('/services', [ProfileController::class, 'serviceIndex']);
 SimpleRouter::get('/about', [ProfileController::class, 'aboutIndex']);
 // SimpleRouter::get('/products', [ProfileController::class, 'productIndex']);
+SimpleRouter::get('/test', [ProfileController::class, 'test']);
 
+SimpleRouter::get('/offers', [ProfileController::class, 'offers']);
+SimpleRouter::get('/offers/company-website', [ProfileController::class, 'offerWebDevelopment']);
+SimpleRouter::get('/offers/online-store', [ProfileController::class, 'offerOnlineStore']);
 
 SimpleRouter::post('/change-language', function () {
     $lang = htmlspecialchars($_POST['language']);

@@ -115,7 +115,7 @@
 
                 <h3 class="pt-30 pb-30 text-center m-0-auto"><?= __('not_sure') ?></h3>
                 <div class="header-btn m-0-auto">
-                    <a href="/contacts" class="text-uppercase d-inline-block"><?= __('contact_me') ?></a>
+                    <a href="/contacts" class="text-uppercase d-inline-block mb-4"><?= __('contact_me') ?></a>
                 </div>
             </div>
         </div>

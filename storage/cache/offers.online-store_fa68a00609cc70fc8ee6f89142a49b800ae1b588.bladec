@@ -1,0 +1,1311 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('SEO'); ?>
+ <title>Изработка на Онлайн Магазин за 1290 € | Любомир Стоянов</title>
+ <meta name="description" content="Изработка на професионален онлайн магазин за 1290 € с административен панел, Speedy и , картови плащания, Facebook Pixel, продуктови варианти, промо кодове, XML одиторски файл, домейн и хостинг.">
+ <meta name="keywords" content="изработка на онлайн магазин, електронен магазин, онлайн магазин цена, ecommerce сайт, изработка на ecommerce, онлайн магазин speedy , онлайн магазин картови плащания">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="canonical" href="https://lubodev.com/offers/online-store">
+
+ <meta property="og:type" content="website">
+ <meta property="og:title" content="Професионален Онлайн Магазин за 1290 €">
+ <meta property="og:description" content="Цялостен онлайн магазин с административен панел, Speedy и Еконт, картови плащания, Facebook Pixel, управление на продукти и поръчки.">
+ <meta property="og:url" content="https://lubodev.com/offers/online-store">
+ <meta property="og:image" content="https://lubodev.com/assets/images/seo-test.png">
+ <meta property="og:site_name" content="Любомир Стоянов – Уеб Разработчик">
+ <meta property="og:locale" content="bg_BG">
+
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:title" content="Професионален Онлайн Магазин за 1290 €">
+ <meta name="twitter:description" content="Всичко необходимо, за да започнете и управлявате собствен онлайн магазин.">
+ <meta name="twitter:image" content="https://lubodev.com/assets/images/seo-test.png">
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+
+ 
+ <!-- ====== Offer Hero Start ====== -->
+
+ <section class="about-area background_main over-hidden pt-150 pb-80">
+
+ <div class="container">
+
+ <div class="row justify-content-center align-items-center">
+
+
+
+ <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12 align-self-start">
+
+ <div class="title mb-30">
+
+ <span class="theme-color text-uppercase d-block mb-6"><?php echo \htmlentities(__('online_store_offer_001')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h1 class="text-white mb-25"><?php echo \htmlentities(__('online_store_offer_002')??'', ENT_QUOTES, 'UTF-8', false); ?></h1>
+
+ <p><?php echo \htmlentities(__('online_store_offer_003')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+
+
+ <ul class="intro-list__section-hero">
+
+ <li><i aria-hidden="true" class="fas fa-check"></i> <?php echo \htmlentities(__('online_store_offer_004')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i aria-hidden="true" class="fas fa-check"></i> <?php echo \htmlentities(__('online_store_offer_005')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i aria-hidden="true" class="fas fa-check"></i> <?php echo \htmlentities(__('online_store_offer_006')??'', ENT_QUOTES, 'UTF-8', false); ?> </li>
+
+ <li><i aria-hidden="true" class="fas fa-check"></i> <?php echo \htmlentities(__('online_store_offer_007')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i aria-hidden="true" class="fas fa-check"></i> <?php echo \htmlentities(__('online_store_offer_008')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i aria-hidden="true" class="fas fa-check"></i> Facebook Pixel</li>
+
+ <li><i aria-hidden="true" class="fas fa-check"></i> <?php echo \htmlentities(__('online_store_offer_009')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i aria-hidden="true" class="fas fa-check"></i> <?php echo \htmlentities(__('online_store_offer_010')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+
+
+ <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4">
+
+
+
+ <div class="text-center">
+
+ <span class="theme-color text-uppercase d-block mb-10"><?php echo \htmlentities(__('online_store_offer_011')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_012')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <h4 class="mt-10">
+
+ <del style="opacity: .55;">2 500 €+</del>
+
+ </h4>
+
+
+
+ <p><?php echo \htmlentities(__('online_store_offer_013')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <h2 class="theme-color mb-10" style="font-size: 64px;">1 500 €</h2>
+
+
+
+ <p class="mb-20"><?php echo \htmlentities(__('online_store_offer_014')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <hr>
+
+ </div>
+
+
+
+ <ul class="list__page-contents list--divider__page-contents">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_015')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_016')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> Speedy + Еконт</li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_017')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> Facebook Pixel</li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_009')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_018')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+
+
+ <div class="header-btn mt-30 text-center">
+
+ <a href="/contact" class="text-uppercase d-inline-block"><?php echo \htmlentities(__('online_store_offer_019')??'', ENT_QUOTES, 'UTF-8', false); ?></a>
+
+ </div>
+
+
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+ </div>
+
+ </section>
+
+ <!-- ====== Offer Hero End ====== -->
+
+
+
+
+
+ <!-- ====== Store Features Start ====== -->
+
+ <section class="secondary-bg pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+
+ <div class="title text-center mb-50">
+
+ <span class="theme-color text-uppercase d-block mb-6"><?php echo \htmlentities(__('online_store_offer_020')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h2 class="text-dark"><?php echo \htmlentities(__('online_store_offer_021')??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+
+ <p class="mt-20"><?php echo \htmlentities(__('online_store_offer_022')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="row">
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-cart-shopping theme-color"></i> <?php echo \htmlentities(__('online_store_offer_023')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_024')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-mobile-screen-button theme-color"></i> <?php echo \htmlentities(__('online_store_offer_025')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_026')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-user theme-color"></i> <?php echo \htmlentities(__('online_store_offer_027')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-15"><?php echo \htmlentities(__('online_store_offer_028')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_029')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_030')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_031')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_032')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-credit-card theme-color"></i> <?php echo \htmlentities(__('online_store_offer_033')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_034')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+ </div>
+
+ </section>
+
+ <!-- ====== Store Features End ====== -->
+
+
+
+
+
+ <!-- ====== Admin Panel Start ====== -->
+
+ <section class="background_main pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+
+ <div class="title text-center mb-50">
+
+ <span class="theme-color text-uppercase d-block mb-6"><?php echo \htmlentities(__('online_store_offer_035')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h2 class="text-white"><?php echo \htmlentities(__('online_store_offer_036')??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+
+ <p class="mt-20"><?php echo \htmlentities(__('online_store_offer_037')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="row">
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-box theme-color"></i> <?php echo \htmlentities(__('online_store_offer_038')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-15"><?php echo \htmlentities(__('online_store_offer_039')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_040')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_041')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_042')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_043')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_044')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-layer-group theme-color"></i> <?php echo \htmlentities(__('online_store_offer_045')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-15"><?php echo \htmlentities(__('online_store_offer_046')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_047')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_048')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_049')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_050')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-sliders theme-color"></i> <?php echo \htmlentities(__('online_store_offer_051')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-15"><?php echo \htmlentities(__('online_store_offer_052')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_053')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_054')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_055')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_056')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-ticket theme-color"></i> <?php echo \htmlentities(__('online_store_offer_057')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_058')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-users theme-color"></i> <?php echo \htmlentities(__('online_store_offer_059')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_060')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-receipt theme-color"></i> <?php echo \htmlentities(__('online_store_offer_061')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-15"><?php echo \htmlentities(__('online_store_offer_062')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_063')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_064')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_065')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_066')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_067')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+
+
+ <div class="row justify-content-center mt-20">
+
+ <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 text-center">
+
+ <i class="fa-solid fa-laptop-code theme-color mb-20" style="font-size: 42px;"></i>
+
+ <h3 class="text-white mb-20"><?php echo \htmlentities(__('online_store_offer_068')??'', ENT_QUOTES, 'UTF-8', false); ?></h3>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_069')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+ </section>
+
+ <!-- ====== Admin Panel End ====== -->
+
+
+
+
+
+ <!-- ====== Couriers Start ====== -->
+
+ <section class="secondary-bg pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+
+ <div class="title text-center mb-50">
+
+ <span class="theme-color text-uppercase d-block mb-6"><?php echo \htmlentities(__('online_store_offer_070')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h2 class="text-dark"><?php echo \htmlentities(__('online_store_offer_006')??'', ENT_QUOTES, 'UTF-8', false); ?> </h2>
+
+ <p class="mt-20"><?php echo \htmlentities(__('online_store_offer_071')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="row">
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <span class="theme-color text-uppercase d-block mb-10"><?php echo \htmlentities(__('online_store_offer_072')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h3 class="text-white mb-20"><i class="fa-solid fa-truck-fast theme-color"></i> Speedy</h3>
+
+ <p><?php echo \htmlentities(__('online_store_offer_073')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents mt-20">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_074')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_075')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_076')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <span class="theme-color text-uppercase d-block mb-10"><?php echo \htmlentities(__('online_store_offer_072')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h3 class="text-white mb-20"><i class="fa-solid fa-truck theme-color"></i>Еконт </h3>
+
+ <p><?php echo \htmlentities(__('online_store_offer_077')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents mt-20">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_078')??'', ENT_QUOTES, 'UTF-8', false); ?> </li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_075')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_076')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+
+
+ </div>
+
+ </section>
+
+ <!-- ====== Couriers End ====== -->
+
+
+
+
+
+ <!-- ====== Marketing Start ====== -->
+
+ <section class="background_main pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+
+ <div class="title text-center mb-50">
+
+ <span class="theme-color text-uppercase d-block mb-6"><?php echo \htmlentities(__('online_store_offer_079')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h2 class="text-white"><?php echo \htmlentities(__('online_store_offer_080')??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+
+ <p class="mt-20"><?php echo \htmlentities(__('online_store_offer_081')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="row">
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-brands fa-facebook theme-color"></i> Facebook Pixel</h4>
+
+ <p><?php echo \htmlentities(__('online_store_offer_082')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents mt-20">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_083')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_084')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_085')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+ <h4 class="mb-20"><i class="fa-solid fa-chart-line theme-color"></i> Google Analytics</h4>
+
+ <p><?php echo \htmlentities(__('online_store_offer_086')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents mt-20">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_087')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_088')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_089')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+
+
+ </div>
+
+ </section>
+
+ <!-- ====== Marketing End ====== -->
+
+
+
+
+
+ <!-- ====== XML Start ====== -->
+
+ <section class="secondary-bg pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+
+
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4">
+
+ <div class="row align-items-center">
+
+
+
+ <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+
+ <span class="theme-color text-uppercase d-block mb-10"><?php echo \htmlentities(__('online_store_offer_090')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+
+
+ <h2 class="text-white mb-20"><?php echo \htmlentities(__('online_store_offer_009')??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+
+
+
+ <p><?php echo \htmlentities(__('online_store_offer_091')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <ul class="list__page-contents mt-20">
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_092')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_093')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <?php echo \htmlentities(__('online_store_offer_094')??'', ENT_QUOTES, 'UTF-8', false); ?></li>
+
+ </ul>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 text-center">
+
+ <i class="fa-solid fa-file-code theme-color mb-20" style="font-size: 64px;"></i>
+
+ <h4 class="theme-color mb-0"><?php echo \htmlentities(__('online_store_offer_095')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ </div>
+
+
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+ </section>
+
+ <!-- ====== XML End ====== -->
+
+
+
+
+
+ <!-- ====== Hosting Start ====== -->
+
+ <section class="background_main pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+
+ <div class="title text-center mb-50">
+
+ <span class="theme-color text-uppercase d-block mb-6"><?php echo \htmlentities(__('online_store_offer_096')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h2 class="text-white"><?php echo \htmlentities(__('online_store_offer_097')??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+
+ <p class="mt-20"><?php echo \htmlentities(__('online_store_offer_098')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="row">
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+
+
+ <span class="theme-color text-uppercase d-block mb-10"><?php echo \htmlentities(__('online_store_offer_099')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+
+
+ <h4 class="mb-15"><i class="fa-solid fa-server theme-color"></i> <?php echo \htmlentities(__('online_store_offer_100')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+
+
+ <p><?php echo \htmlentities(__('online_store_offer_101')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <hr>
+
+
+
+ <p class="mb-5"><?php echo \htmlentities(__('online_store_offer_102')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ <h5 class="mb-10"><del style="opacity: .55;"><?php echo \htmlentities(__('online_store_offer_103')??'', ENT_QUOTES, 'UTF-8', false); ?></del></h5>
+
+ <h4 class="theme-color mb-0"><?php echo \htmlentities(__('online_store_offer_104')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100">
+
+
+
+ <span class="theme-color text-uppercase d-block mb-10"><?php echo \htmlentities(__('online_store_offer_099')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+
+
+ <h4 class="mb-15"><i class="fa-solid fa-globe theme-color"></i> <?php echo \htmlentities(__('online_store_offer_105')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+
+
+ <p><?php echo \htmlentities(__('online_store_offer_106')??'', ENT_QUOTES, 'UTF-8', false); ?> <strong class="text-white">vashiatmagazin.bg</strong> <?php echo \htmlentities(__('online_store_offer_107')??'', ENT_QUOTES, 'UTF-8', false); ?> <strong class="text-white">vashiatmagazin.com</strong>.</p>
+
+
+
+ <hr>
+
+
+
+ <p class="mb-5"><?php echo \htmlentities(__('online_store_offer_102')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ <h5 class="mb-10"><del style="opacity: .55;"><?php echo \htmlentities(__('online_store_offer_108')??'', ENT_QUOTES, 'UTF-8', false); ?></del></h5>
+
+ <h4 class="theme-color mb-0"><?php echo \htmlentities(__('online_store_offer_104')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+
+
+ </div>
+
+ </section>
+
+ <!-- ====== Hosting End ====== -->
+
+
+
+
+
+ <!-- ====== Everything Included Start ====== -->
+
+ <section class="secondary-bg pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+
+
+
+ <div class="title text-center mb-50">
+
+ <span class="theme-color text-uppercase d-block mb-6"><?php echo \htmlentities(__('online_store_offer_109')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h2 class="text-dark"><?php echo \htmlentities(__('online_store_offer_110')??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+
+ </div>
+
+
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4">
+
+
+
+ <ul class="list__page-contents list--divider__page-contents">
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_111')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_112')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_113')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_114')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_051')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_115')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_116')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_027')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_117')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_118')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"> <?php echo \htmlentities(__('online_store_offer_119')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_033')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white">Facebook Pixel</strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white">Google Analytics</strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_009')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_025')??'', ENT_QUOTES, 'UTF-8', false); ?></strong></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_105')??'', ENT_QUOTES, 'UTF-8', false); ?></strong> <span class="float-right theme-color"><?php echo \htmlentities(__('online_store_offer_120')??'', ENT_QUOTES, 'UTF-8', false); ?></span></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_100')??'', ENT_QUOTES, 'UTF-8', false); ?></strong> <span class="float-right theme-color"><?php echo \htmlentities(__('online_store_offer_120')??'', ENT_QUOTES, 'UTF-8', false); ?></span></li>
+
+ <li><i class="fa-solid fa-circle-check"></i> <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_121')??'', ENT_QUOTES, 'UTF-8', false); ?></strong> <span class="float-right theme-color"><?php echo \htmlentities(__('online_store_offer_099')??'', ENT_QUOTES, 'UTF-8', false); ?></span></li>
+
+ </ul>
+
+
+
+ <hr>
+
+
+
+ <div class="text-center pt-20">
+
+ <p class="mb-5"><?php echo \htmlentities(__('online_store_offer_012')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <h3 class="mb-15">
+
+ <del style="opacity: .55;">2 500 €+</del>
+
+ </h3>
+
+
+
+ <p class="mb-5"><?php echo \htmlentities(__('online_store_offer_122')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <h2 class="theme-color mb-0" style="font-size: 64px;">1 500 €</h2>
+
+
+
+ <p class="mt-15 mb-0">
+
+ <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_123')??'', ENT_QUOTES, 'UTF-8', false); ?></strong>
+
+ </p>
+
+ </div>
+
+
+
+ </div>
+
+
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+ </section>
+
+ <!-- ====== Everything Included End ====== -->
+
+
+
+
+
+ <!-- ====== Payment Start ====== -->
+
+ <section class="background_main pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+
+
+
+ <div class="title text-center mb-50">
+
+ <span class="theme-color text-uppercase d-block mb-6"><?php echo \htmlentities(__('online_store_offer_124')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h2 class="text-white"><?php echo \htmlentities(__('online_store_offer_125')??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+
+ <p class="mt-20"><?php echo \htmlentities(__('online_store_offer_126')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+
+
+ <div class="row">
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <span class="theme-color d-block mb-15" style="font-size: 42px;">01</span>
+
+ <h4 class="mb-15"><?php echo \htmlentities(__('online_store_offer_127')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <h2 class="theme-color mb-15">500 €</h2>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_128')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <span class="theme-color d-block mb-15" style="font-size: 42px;">02</span>
+
+ <h4 class="mb-15"><?php echo \htmlentities(__('online_store_offer_129')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <h2 class="theme-color mb-15">500 €</h2>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_130')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <span class="theme-color d-block mb-15" style="font-size: 42px;">03</span>
+
+ <h4 class="mb-15"><?php echo \htmlentities(__('online_store_offer_131')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <h2 class="theme-color mb-15">500 €</h2>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_132')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 mt-20 text-center">
+
+ <i class="fa-solid fa-shield-halved theme-color mb-15" style="font-size: 38px;"></i>
+
+ <h4 class="mb-15"><?php echo \htmlentities(__('online_store_offer_133')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_134')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+ </section>
+
+ <!-- ====== Payment End ====== -->
+
+
+
+
+
+ <!-- ====== Process Start ====== -->
+
+ <section class="secondary-bg pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+
+ <div class="title text-center mb-50">
+
+ <span class="theme-color text-uppercase d-block mb-6"><?php echo \htmlentities(__('online_store_offer_135')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+ <h2 class="text-dark"><?php echo \htmlentities(__('online_store_offer_136')??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+
+ </div>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="row">
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <span class="theme-color d-block mb-15" style="font-size: 42px;">01</span>
+
+ <h4 class="mb-15"><?php echo \htmlentities(__('online_store_offer_137')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_138')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <span class="theme-color d-block mb-15" style="font-size: 42px;">02</span>
+
+ <h4 class="mb-15"><?php echo \htmlentities(__('online_store_offer_139')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_140')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-25">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <span class="theme-color d-block mb-15" style="font-size: 42px;">03</span>
+
+ <h4 class="mb-15"><?php echo \htmlentities(__('online_store_offer_141')??'', ENT_QUOTES, 'UTF-8', false); ?></h4>
+
+ <p class="mb-0"><?php echo \htmlentities(__('online_store_offer_142')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+
+
+ </div>
+
+ </section>
+
+ <!-- ====== Process End ====== -->
+
+
+
+
+
+ <!-- ====== Final CTA Start ====== -->
+
+ <section class="background_main pt-80 pb-80">
+
+ <div class="container">
+
+
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+
+
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 text-center">
+
+
+
+ <span class="theme-color text-uppercase d-block mb-10"><?php echo \htmlentities(__('online_store_offer_143')??'', ENT_QUOTES, 'UTF-8', false); ?></span>
+
+
+
+ <h2 class="text-white mb-20"><?php echo \htmlentities(__('online_store_offer_144')??'', ENT_QUOTES, 'UTF-8', false); ?></h2>
+
+
+
+ <p><?php echo \htmlentities(__('online_store_offer_145')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <p class="mt-25 mb-5"><?php echo \htmlentities(__('online_store_offer_012')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <h4 class="mb-10">
+
+ <del style="opacity: .55;">2 500 €+</del>
+
+ </h4>
+
+
+
+ <p class="mb-5"><?php echo \htmlentities(__('online_store_offer_146')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <h2 class="theme-color mb-10" style="font-size: 64px;">1 500 €</h2>
+
+
+
+ <p class="mb-5">
+
+ <strong class="text-white"><?php echo \htmlentities(__('online_store_offer_123')??'', ENT_QUOTES, 'UTF-8', false); ?></strong>
+
+ </p>
+
+
+
+ <p><?php echo \htmlentities(__('online_store_offer_132')??'', ENT_QUOTES, 'UTF-8', false); ?></p>
+
+
+
+ <div class="header-btn mt-30">
+
+ <a href="/contact" class="text-uppercase d-inline-block"><?php echo \htmlentities(__('online_store_offer_019')??'', ENT_QUOTES, 'UTF-8', false); ?></a>
+
+ </div>
+
+
+
+ </div>
+
+
+
+ </div>
+
+ </div>
+
+
+
+ </div>
+
+ </section>
+
+ <!-- ====== Final CTA End ====== -->
+
+
+
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layouts.app'); } ?>

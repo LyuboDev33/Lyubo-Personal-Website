@@ -78,6 +78,7 @@
                                         <li><a href="/"><?= __('header_home') ?></a></li>
                                         <li><a href="/about"><?= __('header_about') ?></a></li>
                                         <li><a href="/services"><?= __('header_services') ?></a></li>
+                                        <li><a href="/offers"><?= __('header_offers') ?></a></li>
                                         <li><a href="/projects"><?= __('header_projects') ?></a></li>
                                         <li class="d-lg-none"><a href="/contact"><?= __('header_contact') ?></a></li>
                                     </ul>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="/assets/images/logo/favicon.png?v=<?php echo time(); ?>" type="image/x-icon">
+
+    <!-- CSS -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css?v=<?php echo time(); ?>">
+    <!-- AOS -->
+    <link rel="stylesheet" href="/assets/css/aos.css?v=<?php echo time(); ?>">
+    <!-- Default -->
+    <link rel="stylesheet" href="/assets/css/default.css?v=<?php echo time(); ?>">
+    <!-- MeanMenu -->
+    <link rel="stylesheet" href="/assets/css/meanmenu.css?v=<?php echo time(); ?>">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="/assets/css/style.css?v=<?php echo time(); ?>">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="/assets/css/responsive.css?v=<?php echo time(); ?>">
+    <!-- Custom -->
+    <link rel="stylesheet" href="/assets/css/custom.css?v=<?php echo time(); ?>">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Lenis -->
+    <script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script>
+
+    <script>
+        const lenis = new Lenis({
+            duration: 1,
+            smoothWheel: true,
+            wheelMultiplier: 0.8,
+            touchMultiplier: 0.8,
+            lerp: 0.5
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L4E71EVD0X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-L4E71EVD0X');
+    </script>
+
+    @yield('SEO')
+
+</head>
+
+<body class="body-dark-mode">
+
+    @include('inc.header')
+
+    <main>
+        @yield('content')
+    </main>
+
+
+    @include('inc.footer')
+
+
+    <!-- ================== All js here ================ -->
+    <script src="/assets/js/vendor/jquery-1.12.4.min.js?v=<?php echo time(); ?>"></script>
+    <script src="/assets/js/jquery.meanmenu.min.js?v=<?php echo time(); ?>"></script>
+
+    <script src="/assets/js/typer.js?v=<?php echo time(); ?>"></script>
+    <script src="/assets/js/aos.js?v=<?php echo time(); ?>"></script>
+    <script src="/assets/js/main.js?v=<?php echo time(); ?>"></script>
+
+
+    <script>
+        function refreshAOS() {
+            AOS.refresh();
+        }
+
+        window.addEventListener('load', function() {
+            refreshAOS();
+        });
+    </script>
+
+</body>
+
+</html>

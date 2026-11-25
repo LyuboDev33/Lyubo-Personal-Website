@@ -59,7 +59,7 @@
                 <div class="row align-items-start theme-border-top  pt-10">
                     <div class="col-xl-4  col-lg-4  col-md-4  col-sm-11 col-12">
                         <div class="a mt-10 mb-20 text-center">
-                            <a target="_blank" href="https://softex.bg/" class="d-block">
+                            <a target="_blank" href="https://softex-academy.com" class="d-block">
                                 <img src="/assets/images/testimonial/logo-softex.png" alt="award logo 3">
                             </a>
                         </div><!-- /a -->
@@ -67,7 +67,7 @@
 
                     <div class="col-xl-4  col-lg-4  col-md-4  col-sm-11 col-12 project-boxes">
                         <div class="header-btn m-0-auto ">
-                            <a href="https://softex.bg" target="_blank" class="text-uppercase d-inline-block"><?= __('project3_button') ?></a>
+                            <a href="https://softex-academy.com" target="_blank" class="text-uppercase d-inline-block"><?= __('project3_button') ?></a>
                         </div>
                     </div><!-- /col -->
 

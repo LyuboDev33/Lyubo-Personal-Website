@@ -104,24 +104,3 @@
    <!-- footer-area-end  -->
 
 
-
-
-
-   <!-- ================== All js here ================ -->
-   <script  src="/assets/js/vendor/jquery-1.12.4.min.js?v=<?php echo time(); ?>"></script>
-           <script  src="/assets/js/jquery.meanmenu.min.js?v=<?php echo time(); ?>"></script>
-
-   <script  src="/assets/js/typer.js?v=<?php echo time(); ?>"></script>
-   <script  src="/assets/js/aos.js?v=<?php echo time(); ?>"></script>
-    <script  src="/assets/js/main.js?v=<?php echo time(); ?>"></script>
-
-
-   <script>
-       function refreshAOS() {
-           AOS.refresh();
-       }
-
-       window.addEventListener('load', function() {
-           refreshAOS();
-       });
-   </script>

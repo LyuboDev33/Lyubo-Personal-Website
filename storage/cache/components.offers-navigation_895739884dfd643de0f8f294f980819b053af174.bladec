@@ -1,0 +1,118 @@
+<section class="background_main pt-130 pb-30">
+
+ <div class="container">
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+
+ <div class="title text-center mb-30">
+
+ <span class="theme-color text-uppercase d-block mb-6">
+ Уеб решения за вашия бизнес
+ </span>
+
+ <h2 class="text-white">
+ От какъв уебсайт имате нужда?
+ </h2>
+
+ <p class="mt-20">
+ Изберете най-подходящия тип проект за вашия бизнес и разгледайте
+ какво включва всяка оферта.
+ </p>
+
+ </div>
+
+ </div>
+
+ </div>
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-20">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <i class="fa-solid fa-building theme-color mb-20" style="font-size: 38px;"></i>
+
+ <h4 class="mb-15">
+ Фирмен уебсайт
+ </h4>
+
+ <p>
+ Представете бизнеса, услугите и контактите си професионално онлайн.
+ </p>
+
+ <div class="header-btn mt-25">
+ <a href="/offers/company-website" class="text-uppercase d-inline-block">
+ Виж офертата
+ </a>
+ </div>
+
+ </div>
+
+ </div>
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-20">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <i class="fa-solid fa-cart-shopping theme-color mb-20" style="font-size: 38px;"></i>
+
+ <h4 class="mb-15">
+ Онлайн магазин
+ </h4>
+
+ <p>
+ Продавайте продуктите си онлайн чрез собствен електронен магазин.
+ </p>
+
+ <div class="header-btn mt-25">
+ <a href="/offers/online-store" class="text-uppercase d-inline-block">
+ Виж офертата
+ </a>
+ </div>
+
+ </div>
+
+ </div>
+
+ </div>
+
+ <div class="row justify-content-center mt-30">
+
+ <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12 col-12">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 text-center">
+
+ <i class="fa-solid fa-gears theme-color mb-20" style="font-size: 38px;"></i>
+
+ <span class="theme-color text-uppercase d-block mb-10">
+ Имате нужда от нещо по-специфично?
+ </span>
+
+ <h4 class="text-white mb-15">
+ Индивидуални решения и автоматизация за вашия бизнес
+ </h4>
+
+ <p class="mb-25">
+ Ако вашият бизнес има нужда от специализирано уеб решение,
+ индивидуална функционалност или интеграция за автоматизация на
+ работните процеси, свържете се с мен, за да обсъдим вашия проект.
+ </p>
+
+ <div class="header-btn">
+ <a href="/contact" class="text-uppercase d-inline-block">
+ Свържете се с мен
+ </a>
+ </div>
+
+ </div>
+
+ </div>
+
+ </div>
+
+ </div>
+
+</section>

@@ -1,0 +1,205 @@
+<?php $_shouldextend[1]=1; ?>
+
+
+<?php $this->startSection('SEO'); ?>
+
+ <!-- Primary Meta Tags -->
+ <title>Изработка на Фирмен Уебсайт за 650 € | Любомир Стоянов</title>
+
+ <meta name="description" content="Изработка на професионален фирмен уебсайт за 650 €. Модерен дизайн, мобилна версия, контактна форма, SEO основи и всичко необходимо за онлайн представянето на вашия бизнес.">
+
+ <meta name="keywords" content="изработка на фирмен уебсайт, фирмен сайт, изработка на сайт, уебсайт за бизнес, професионален уебсайт, цена фирмен сайт">
+
+ <!-- Canonical -->
+ <link rel="canonical" href="https://lubodev.com/offers/company-website">
+
+ <!-- Open Graph / Facebook -->
+ <meta property="og:type" content="website">
+
+ <meta
+ property="og:title"
+ content="Изработка на Фирмен Уебсайт за 650 €"
+ >
+
+ <meta
+ property="og:description"
+ content="Професионален фирмен уебсайт за вашия бизнес с модерен дизайн, мобилна версия, контактна форма и SEO основи."
+ >
+
+ <meta
+ property="og:url"
+ content="https://lubodev.com/offers/company-website"
+ >
+
+ <meta
+ property="og:image"
+ content="https://lubodev.com/assets/images/seo-test.png"
+ >
+
+ <meta
+ property="og:site_name"
+ content="Любомир Стоянов – Уеб Разработчик"
+ >
+
+ <meta
+ property="og:locale"
+ content="bg_BG"
+ >
+
+ <!-- Twitter / X -->
+ <meta
+ name="twitter:card"
+ content="summary_large_image"
+ >
+
+ <meta
+ name="twitter:title"
+ content="Изработка на Фирмен Уебсайт за 650 €"
+ >
+
+ <meta
+ name="twitter:description"
+ content="Професионален фирмен уебсайт за вашия бизнес на цена от 650 €."
+ >
+
+ <meta
+ name="twitter:image"
+ content="https://lubodev.com/assets/images/seo-test.png"
+ >
+
+<?php $this->stopSection(); ?>
+
+
+<?php $this->startSection('content'); ?>
+
+ <section class="background_main pt-130 pb-30">
+
+ <div class="container">
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+
+ <div class="title text-center mb-30">
+
+ <span class="theme-color text-uppercase d-block mb-6">
+ <?php echo \htmlentities(__('offers_intro_label')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </span>
+
+ <h2 class="text-white">
+ <?php echo \htmlentities(__('offers_intro_title')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </h2>
+
+ <p class="mt-20">
+ <?php echo \htmlentities(__('offers_intro_description')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </p>
+
+ </div>
+
+ </div>
+
+ </div>
+
+ <div class="row justify-content-center">
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-20">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <i class="fa-solid fa-building theme-color mb-20" style="font-size: 38px;"></i>
+
+ <h4 class="mb-15">
+ <?php echo \htmlentities(__('offers_company_title')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </h4>
+
+ <p>
+ <?php echo \htmlentities(__('offers_company_description')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </p>
+
+ <div class="header-btn mt-25">
+ <a href="/offers/company-website" class="text-uppercase d-inline-block">
+ <?php echo \htmlentities(__('offers_view_offer')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </a>
+ </div>
+
+ </div>
+
+ </div>
+
+ <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-20">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+
+ <i class="fa-solid fa-cart-shopping theme-color mb-20" style="font-size: 38px;"></i>
+
+ <h4 class="mb-15">
+ <?php echo \htmlentities(__('offers_store_title')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </h4>
+
+ <p>
+ <?php echo \htmlentities(__('offers_store_description')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </p>
+
+ <div class="header-btn mt-25">
+ <a href="/offers/online-store" class="text-uppercase d-inline-block">
+ <?php echo \htmlentities(__('offers_view_offer')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </a>
+ </div>
+
+ </div>
+
+ </div>
+
+ </div>
+
+ <div class="row justify-content-center mt-30">
+
+ <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12 col-12">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 text-center">
+
+ <i class="fa-solid fa-gears theme-color mb-20" style="font-size: 38px;"></i>
+
+ <span class="theme-color text-uppercase d-block mb-10">
+ <?php echo \htmlentities(__('offers_custom_label')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </span>
+
+ <h4 class="text-white mb-15">
+ <?php echo \htmlentities(__('offers_custom_title')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </h4>
+
+ <p class="mb-25">
+ <?php echo \htmlentities(__('offers_custom_description')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </p>
+
+ <div class="header-btn">
+ <a href="/contact" class="text-uppercase d-inline-block">
+ <?php echo \htmlentities(__('offers_contact_button')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ </a>
+ </div>
+
+ </div>
+
+ </div>
+
+ </div>
+
+ </div>
+
+ </section>
+
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layouts.app'); } ?>

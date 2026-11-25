@@ -1,16 +1,28 @@
 <?php 
 
-function view(string $path, array $data = []) {
+use eftec\bladeone\BladeOne;
 
-    extract($data);
-    $basePath = __DIR__ . '/resources/views/';
-    $path = str_replace(['.', '/'], DIRECTORY_SEPARATOR, $path);
-    $viewFile = $basePath . $path . '.php';
+// function view(string $path, array $data = []) {
 
-    if (!file_exists($viewFile)) {
-        throw new Exception("View not found: {$viewFile}");
-    }
-    require $viewFile;
+//     extract($data);
+//     $basePath = __DIR__ . '/resources/views/';
+//     $path = str_replace(['.', '/'], DIRECTORY_SEPARATOR, $path);
+//     $viewFile = $basePath . $path . '.php';
+
+//     if (!file_exists($viewFile)) {
+//         throw new Exception("View not found: {$viewFile}");
+//     }
+//     require $viewFile;
+// }
+
+function view(string $path, array $data = [])
+{
+    $views = __DIR__ . '/resources/views';
+    $cache = __DIR__ . '/storage/cache';
+
+    $blade = new BladeOne($views, $cache, BladeOne::MODE_DEBUG);
+
+    return $blade->run($path, $data);
 }
 
 /**
@@ -24,7 +36,7 @@ function include_asset (string $path): void {
 
     $path = str_replace(['.', '/'], DIRECTORY_SEPARATOR, $path);
     $viewFile = $basePath . $path . '.php';
-
+    
     if (!file_exists($viewFile)) {
         throw new Exception("View not found: {$viewFile}");
     }
