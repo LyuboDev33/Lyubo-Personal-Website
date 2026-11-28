@@ -174,6 +174,7 @@
 
         <div class="container">
 
+                      @include('components.contact-form')
 
 
             <div class="row justify-content-center">

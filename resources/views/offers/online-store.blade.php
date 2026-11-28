@@ -167,6 +167,8 @@
 
         <div class="container">
 
+              @include('components.contact-form')
+
 
 
             <div class="row justify-content-center">
@@ -270,17 +272,13 @@
     </section>
 
     <!-- ====== Store Features End ====== -->
-
-
-
-
+    
 
     <!-- ====== Admin Panel Start ====== -->
 
     <section class="background_main pt-80 pb-80">
 
         <div class="container">
-
 
 
             <div class="row justify-content-center">

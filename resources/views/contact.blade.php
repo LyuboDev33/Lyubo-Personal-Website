@@ -211,6 +211,9 @@
 
                 </div><!-- /row -->
 
+                                      @include('components.contact-form')
+
+
             </div><!-- /container -->
 
         </div><!-- /about-wrapper -->

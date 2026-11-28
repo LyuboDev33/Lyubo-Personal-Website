@@ -221,6 +221,9 @@
 
  </div><!-- /row -->
 
+ <?php echo $this->runChild('components.contact-form'); ?>
+
+
  </div><!-- /container -->
 
  </div><!-- /about-wrapper -->

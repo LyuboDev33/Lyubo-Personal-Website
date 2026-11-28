@@ -1,5 +1,5 @@
 <!-- Quick Inquiry Form -->
-<div class="row justify-content-center mt-40">
+<div class="row justify-content-center mt-20 mb-4">
 
     <div class="col-xl-10 col-lg-12 col-md-12 col-12">
 
@@ -26,7 +26,7 @@
             </div>
 
             <form id="offerInquiryForm"
-                action="{{ \Pecee\SimpleRouter\SimpleRouter::getUrl('offers.inquiry') }}"
+                action="/send-contact-form"
                 method="POST">
 
                 <div class="row align-items-start">
