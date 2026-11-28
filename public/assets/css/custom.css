@@ -1,3 +1,297 @@
+/* ========================================
+   SPECIAL PACKAGE OFFERS
+======================================== */
+
+.special-offers {
+    --offer-accent: #98ed60;
+    --offer-text: #c5c3cf;
+    --offer-card-bg: #292930;
+}
+
+
+/* Section introduction */
+
+.special-offers .offers-main-title {
+    font-size: clamp(28px, 3vw, 40px);
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.special-offers .offers-intro-description {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--offer-text);
+}
+
+
+/* Package card */
+
+.special-offers .offer-package {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 26px;
+    background-color: var(--offer-card-bg);
+    border-radius: 18px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.special-offers .offer-package:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 35px rgba(152, 237, 96, 0.08);
+}
+
+.special-offers .offer-package-content {
+    flex: 1;
+}
+
+
+/* Package icon */
+
+.special-offers .offer-package-icon {
+    color: var(--offer-accent);
+    font-size: 42px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+
+/* Package label */
+
+.special-offers .offer-package-label {
+    display: inline-block;
+    background-color: var(--offer-accent);
+    color: #172110;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+/* Package heading */
+
+.special-offers .offer-package-title {
+    font-size: clamp(28px, 3vw, 38px);
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+.special-offers .offer-package-subtitle {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+
+/* Package description */
+
+.special-offers .offer-package-description {
+    color: var(--offer-text);
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/* Pricing section */
+
+.special-offers .offer-package-pricing {
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+.special-offers .offer-package-old-price {
+    color: var(--offer-text);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.special-offers .offer-package-price {
+    color: var(--offer-accent);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+
+.special-offers .offer-package-savings {
+    color: var(--offer-accent);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.special-offers .offer-package-payment {
+    color: var(--offer-text);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
+
+
+/* Package button */
+
+.special-offers .offer-package-button {
+    display: block;
+    width: 100%;
+    background-color: var(--offer-accent);
+    color: #172110;
+    border: 1px solid var(--offer-accent);
+    border-radius: 50px;
+    padding: 18px 20px;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.special-offers .offer-package-button:hover {
+    background-color: transparent;
+    color: var(--offer-accent);
+}
+
+
+/* Limited availability */
+
+.special-offers .offer-availability {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    padding: 17px 25px;
+    border: 1px solid var(--offer-accent);
+    border-radius: 50px;
+    background: linear-gradient(
+        90deg,
+        rgba(152, 237, 96, 0.04),
+        rgba(152, 237, 96, 0.12),
+        rgba(152, 237, 96, 0.04)
+    );
+    box-shadow: 0 0 30px rgba(152, 237, 96, 0.10);
+}
+
+.special-offers .offer-availability i {
+    flex-shrink: 0;
+    color: var(--offer-accent);
+    font-size: 27px;
+}
+
+.special-offers .offer-availability span {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+/* Individual solutions */
+
+.special-offers .offer-custom-package {
+    padding: 35px 30px !important;
+}
+
+.special-offers .offer-custom-package p {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 991px) {
+
+    .special-offers .offer-package {
+        padding: 25px 20px;
+    }
+
+    .special-offers .offer-package-label {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    .special-offers .offer-package-subtitle {
+        font-size: 17px;
+    }
+
+    .special-offers .offer-package-description {
+        font-size: 16px;
+    }
+
+    .special-offers .offer-availability span {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .special-offers .offers-main-title {
+        font-size: 28px;
+    }
+
+    .special-offers .offers-intro-description {
+        font-size: 16px;
+    }
+
+    .special-offers .offer-package {
+        padding: 28px 20px;
+    }
+
+    .special-offers .offer-package-title {
+        font-size: 30px;
+    }
+
+    .special-offers .offer-package-price {
+        font-size: 42px;
+    }
+
+    .special-offers .offer-package-label {
+        font-size: 15px;
+    }
+
+    .special-offers .offer-package-button {
+        font-size: 15px;
+        padding: 16px;
+    }
+
+    .special-offers .offer-availability {
+        gap: 12px;
+        padding: 15px 20px;
+        border-radius: 18px;
+    }
+
+    .special-offers .offer-availability span {
+        font-size: 15px;
+    }
+
+    .special-offers .offer-availability i {
+        font-size: 22px;
+    }
+
+    .special-offers .offer-availability i:last-child {
+        display: none;
+    }
+
+}
+
 .download-bg {
     background: white;
     border-radius: 100%;
@@ -63,7 +357,7 @@
 }
 
 .projects-about img {
-    height: 225px;
+    /* max-height: 265px; */
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -344,4 +638,153 @@
         font-size: 18px;
         color: #80db66;
     }
+}
+
+/* ========================================
+   OFFER INQUIRY FORM
+======================================== */
+
+.offer-inquiry {
+    background-color: #292930;
+    border: 1px solid rgba(152, 237, 96, 0.18);
+    border-radius: 18px;
+    padding: 35px 30px;
+}
+
+.offer-inquiry h3 {
+    font-size: clamp(25px, 3vw, 32px);
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.offer-inquiry p {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #c5c3cf;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.offer-inquiry label {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.offer-inquiry input {
+    display: block;
+    width: 100%;
+    height: 56px;
+    padding: 0 18px;
+    background-color: #1b1c21;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.offer-inquiry input::placeholder {
+    color: #92919c;
+}
+
+.offer-inquiry input:focus {
+    border-color: #98ed60;
+}
+
+.offer-inquiry input.is-invalid {
+    border-color: #ff7474;
+}
+
+.offer-inquiry button {
+    display: block;
+    width: 100%;
+    height: 56px;
+    padding: 0 15px;
+    background-color: #98ed60;
+    border: 1px solid #98ed60;
+    border-radius: 50px;
+    color: #172110;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.offer-inquiry button:hover {
+    background-color: transparent;
+    color: #98ed60;
+}
+
+.offer-inquiry button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.offer-inquiry .inquiry-error {
+    display: block;
+    color: #ff7474;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.offer-inquiry .inquiry-privacy {
+    color: #a5a4af;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.offer-inquiry .inquiry-privacy i {
+    color: #98ed60;
+}
+
+
+/* Response messages */
+
+#inquiryResponse {
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+#inquiryResponse.inquiry-success {
+    background-color: rgba(152, 237, 96, 0.08);
+    border: 1px solid rgba(152, 237, 96, 0.35);
+    color: #98ed60;
+}
+
+#inquiryResponse.inquiry-failed {
+    background-color: rgba(255, 116, 116, 0.08);
+    border: 1px solid rgba(255, 116, 116, 0.35);
+    color: #ff7474;
+}
+
+
+/* Responsive */
+
+@media (max-width: 991px) {
+
+    .offer-inquiry .inquiry-button-label {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .offer-inquiry {
+        padding: 25px 20px;
+    }
+
+    .offer-inquiry p {
+        font-size: 16px;
+    }
+
 }

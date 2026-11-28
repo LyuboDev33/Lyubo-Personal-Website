@@ -1,0 +1,215 @@
+<!-- Quick Inquiry Form -->
+<div class="row justify-content-center mt-40">
+
+ <div class="col-xl-10 col-lg-12 col-md-12 col-12">
+
+ <div class="offer-inquiry">
+
+ <div class="text-center mb-30">
+
+ <i class="fa-solid fa-phone-volume theme-color mb-20" style="font-size: 38px;"></i>
+
+ <span class="theme-color text-uppercase d-block mb-10">
+ Направете първата стъпка
+ </span>
+
+ <h3 class="text-white mb-15">
+ Интересувате се от някоя от офертите?
+ </h3>
+
+ <p>
+ Оставете вашето име и телефонен номер.
+ Ще се свържа с вас, за да обсъдим вашия проект
+ и да отговоря на всички ваши въпроси.
+ </p>
+
+ </div>
+
+ <form id="offerInquiryForm"
+ action="<?php echo \htmlentities(\Pecee\SimpleRouter\SimpleRouter::getUrl('offers.inquiry')??'', ENT_QUOTES, 'UTF-8', false); ?>"
+ method="POST">
+
+ <div class="row align-items-start">
+
+ <div class="col-lg-4 col-md-6 col-12 mb-15">
+
+ <label for="inquiryName">
+ Вашето име
+ </label>
+
+ <input type="text" id="inquiryName" name="name" placeholder="Въведете вашето име"
+ autocomplete="name" maxlength="100" required>
+
+ <small class="inquiry-error" id="nameError"></small>
+
+ </div>
+
+ <div class="col-lg-4 col-md-6 col-12 mb-15">
+
+ <label for="inquiryPhone">
+ Телефонен номер
+ </label>
+
+ <input type="tel" id="inquiryPhone" name="phone" placeholder="08XX XXX XXX"
+ autocomplete="tel" maxlength="25" required>
+
+ <small class="inquiry-error" id="phoneError"></small>
+
+ </div>
+
+ <div class="col-lg-4 col-md-12 col-12 mb-15">
+
+ <label class="inquiry-button-label" aria-hidden="true">
+ &nbsp;
+ </label>
+
+ <button type="submit" id="inquirySubmitBtn">
+
+ <i class="fa-solid fa-paper-plane me-2"></i>
+
+ Изпрати запитване
+
+ </button>
+
+ </div>
+
+ </div>
+
+ <div id="inquiryResponse" role="status" aria-live="polite" style="display: none;"></div>
+
+ <div class="inquiry-privacy text-center mt-15">
+
+ <i class="fa-solid fa-lock me-1"></i>
+
+ Вашите данни ще бъдат използвани единствено
+ за връзка с вас относно запитването.
+
+ </div>
+
+ </form>
+
+ </div>
+
+ </div>
+
+</div>
+
+<script>
+ $(document).ready(function() {
+
+ $("#offerInquiryForm").on("submit", function(e) {
+
+ e.preventDefault();
+
+ const form = $(this);
+ const submitButton = $("#inquirySubmitBtn");
+ const responseBox = $("#inquiryResponse");
+ const originalButton = submitButton.html();
+
+ // Prevent duplicate submissions.
+ if (submitButton.prop("disabled")) {
+ return;
+ }
+
+ // Reset previous validation errors.
+ form.find("input").removeClass("is-invalid");
+ form.find(".inquiry-error").text("");
+
+ responseBox
+ .hide()
+ .removeClass("inquiry-success inquiry-failed")
+ .text("");
+
+ $.ajax({
+
+ url: form.attr("action"),
+ type: "POST",
+ data: form.serialize(),
+ dataType: "json",
+ headers: {
+ "Accept": "application/json"
+ },
+
+ beforeSend: function() {
+
+ submitButton
+ .prop("disabled", true)
+ .html(`
+ <i class="fa-solid fa-spinner fa-spin me-2"></i>
+ Изпращане...
+ `);
+
+ },
+
+ success: function(response) {
+
+ console.log(response);
+ return;
+
+ responseBox
+ .addClass("inquiry-success")
+ .text(response.message)
+ .fadeIn(200);
+
+ form[0].reset();
+
+ },
+
+ error: function(xhr) {
+
+ console.log(xhr.responseText);
+ 
+
+ if (xhr.status === 422) {
+
+ const errors = xhr.responseJSON?.errors || {};
+
+ if (errors.name) {
+
+ $("#inquiryName").addClass("is-invalid");
+ $("#nameError").text(errors.name[0]);
+
+ }
+
+ if (errors.phone) {
+
+ $("#inquiryPhone").addClass("is-invalid");
+ $("#phoneError").text(errors.phone[0]);
+
+ }
+
+ return;
+
+ }
+
+ let message = "Възникна грешка. Моля, опитайте отново.";
+
+ if (xhr.status === 429) {
+ message = "Твърде много опити. Моля, опитайте отново по-късно.";
+ }
+
+ if (xhr.status === 419) {
+ message = "Вашата сесия е изтекла. Моля, презаредете страницата.";
+ }
+
+ responseBox
+ .addClass("inquiry-failed")
+ .text(message)
+ .fadeIn(200);
+
+ },
+
+ complete: function() {
+
+ submitButton
+ .prop("disabled", false)
+ .html(originalButton);
+
+ }
+
+ });
+
+ });
+
+ });
+</script>

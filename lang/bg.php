@@ -177,7 +177,10 @@ return [
     'portfolio_subtitle' => 'Успешно Реализирани Проекти',
 
     // Project names
-    'project_reluxtop'  => 'Онлайн магазин за часовници и аксесоари ReluxTop',
+    'project_yukon'          => 'Компания за картонени кутии и опаковки „Юкон“',
+    'project_laso'           => 'Абонаментна услуга за Meta реклама Laso',
+    'project_mira_therapy'   => 'Психологичен център Albeta',
+    'project_reluxtop'       => 'Онлайн магазин за часовници и аксесоари ReluxTop',
     'project_valente'        => 'Онлайн магазин за оптика "Valente"',
     'project_estate_finish'  => 'Строителна фирма Estate Finish',
     'project_weebix'         => 'Дигитална агенция Weebix',

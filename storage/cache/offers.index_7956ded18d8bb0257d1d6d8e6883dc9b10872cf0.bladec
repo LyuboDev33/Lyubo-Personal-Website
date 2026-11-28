@@ -1,100 +1,70 @@
 <?php $_shouldextend[1]=1; ?>
 
-
 <?php $this->startSection('SEO'); ?>
 
  <!-- Primary Meta Tags -->
- <title>Изработка на Фирмен Уебсайт за 650 € | Любомир Стоянов</title>
+ <title>Специални пакетни оферти за изработка на уебсайт | Любомир Стоянов</title>
 
- <meta name="description" content="Изработка на професионален фирмен уебсайт за 650 €. Модерен дизайн, мобилна версия, контактна форма, SEO основи и всичко необходимо за онлайн представянето на вашия бизнес.">
+ <meta name="description" content="Възползвайте се от специалните пакетни оферти за изработка на фирмен уебсайт за 750 € и онлайн магазин за 1 500 €. Цялостни уеб решения за вашия бизнес.">
 
- <meta name="keywords" content="изработка на фирмен уебсайт, фирмен сайт, изработка на сайт, уебсайт за бизнес, професионален уебсайт, цена фирмен сайт">
+ <meta name="keywords" content="изработка на сайт, фирмен уебсайт, онлайн магазин, пакетни оферти, изработка на електронен магазин, уеб разработка">
 
  <!-- Canonical -->
- <link rel="canonical" href="https://lubodev.com/offers/company-website">
+ <link rel="canonical" href="https://lubodev.com/offers">
 
  <!-- Open Graph / Facebook -->
  <meta property="og:type" content="website">
 
- <meta
- property="og:title"
- content="Изработка на Фирмен Уебсайт за 650 €"
- >
+ <meta property="og:title" content="Специални пакетни оферти за изработка на уебсайт">
 
- <meta
- property="og:description"
- content="Професионален фирмен уебсайт за вашия бизнес с модерен дизайн, мобилна версия, контактна форма и SEO основи."
- >
+ <meta property="og:description" content="Фирмен уебсайт за 750 € и онлайн магазин за 1 500 €. Всичко необходимо за вашия онлайн бизнес на преференциални цени.">
 
- <meta
- property="og:url"
- content="https://lubodev.com/offers/company-website"
- >
+ <meta property="og:url" content="https://lubodev.com/offers">
 
- <meta
- property="og:image"
- content="https://lubodev.com/assets/images/seo-test.png"
- >
+ <meta property="og:image" content="https://lubodev.com/assets/images/seo-test.png">
 
- <meta
- property="og:site_name"
- content="Любомир Стоянов – Уеб Разработчик"
- >
+ <meta property="og:site_name" content="Любомир Стоянов – Уеб Разработчик">
 
- <meta
- property="og:locale"
- content="bg_BG"
- >
+ <meta property="og:locale" content="bg_BG">
 
  <!-- Twitter / X -->
- <meta
- name="twitter:card"
- content="summary_large_image"
- >
+ <meta name="twitter:card" content="summary_large_image">
 
- <meta
- name="twitter:title"
- content="Изработка на Фирмен Уебсайт за 650 €"
- >
+ <meta name="twitter:title" content="Специални пакетни оферти за изработка на уебсайт">
 
- <meta
- name="twitter:description"
- content="Професионален фирмен уебсайт за вашия бизнес на цена от 650 €."
- >
+ <meta name="twitter:description" content="Цялостни уеб решения за вашия бизнес на преференциални цени.">
 
- <meta
- name="twitter:image"
- content="https://lubodev.com/assets/images/seo-test.png"
- >
+ <meta name="twitter:image" content="https://lubodev.com/assets/images/seo-test.png">
 
 <?php $this->stopSection(); ?>
 
 
 <?php $this->startSection('content'); ?>
 
- <section class="background_main pt-130 pb-30">
+ <section class="background_main pt-130 pb-60 special-offers">
 
  <div class="container">
 
+ <!-- Section Introduction -->
  <div class="row justify-content-center">
 
- <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12">
+ <div class="col-xl-11 col-lg-12 col-md-12 col-12">
 
- <div class="title text-center mb-30">
+ <div class="title text-center mb-40">
 
- <span class="theme-color text-uppercase d-block mb-6">
- <?php echo \htmlentities(__('offers_intro_label')??'', ENT_QUOTES, 'UTF-8', false); ?>
-
+ <span class="theme-color text-uppercase d-block mb-15">
+ Специални пакетни оферти
  </span>
 
- <h2 class="text-white">
- <?php echo \htmlentities(__('offers_intro_title')??'', ENT_QUOTES, 'UTF-8', false); ?>
-
+ <h2 class="text-white offers-main-title">
+ Цялостни уеб решения на преференциални цени
  </h2>
 
- <p class="mt-20">
- <?php echo \htmlentities(__('offers_intro_description')??'', ENT_QUOTES, 'UTF-8', false); ?>
-
+ <p class="mt-20 offers-intro-description">
+ Всичко необходимо за вашия онлайн бизнес,
+ обединено в два специални пакета.
+ Възползвайте се от преференциалните условия
+ за ограничен период и при ограничен брой нови проекти.
  </p>
 
  </div>
@@ -103,57 +73,128 @@
 
  </div>
 
+
+ <!-- Package Offers -->
  <div class="row justify-content-center">
 
- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-20">
+ <!-- Business Start Package -->
+ <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
 
- <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
+ <div class="offer-package shadow-hover transition3 primary-bg border-radius12 h-100 text-center">
 
- <i class="fa-solid fa-building theme-color mb-20" style="font-size: 38px;"></i>
+ <div class="offer-package-content">
 
- <h4 class="mb-15">
- <?php echo \htmlentities(__('offers_company_title')??'', ENT_QUOTES, 'UTF-8', false); ?>
+ <div class="offer-package-icon">
+ <i class="fa-solid fa-building"></i>
+ </div>
 
- </h4>
+ <div class="offer-package-label">
+ Пакет „Бизнес старт“
+ </div>
 
- <p>
- <?php echo \htmlentities(__('offers_company_description')??'', ENT_QUOTES, 'UTF-8', false); ?>
+ <h3 class="offer-package-title text-white">
+ Фирмен уебсайт
+ </h3>
 
+ <h5 class="offer-package-subtitle text-white">
+ Всичко необходимо в един пакет
+ </h5>
+
+ <p class="offer-package-description">
+ Индивидуална изработка, до 10 страници,
+ блог, домейн, хостинг, Google Analytics
+ и форма за запитвания.
  </p>
 
- <div class="header-btn mt-25">
- <a href="/offers/company-website" class="text-uppercase d-inline-block">
- <?php echo \htmlentities(__('offers_view_offer')??'', ENT_QUOTES, 'UTF-8', false); ?>
+ </div>
+
+ <div class="offer-package-pricing">
+
+ <div class="offer-package-old-price">
+ <del>1 270 €+</del>
+ </div>
+
+ <div class="offer-package-price">
+ 750 €
+ </div>
+
+ <div class="offer-package-savings">
+ Спестявате над 520 €
+ </div>
+
+ <div class="offer-package-payment">
+ Еднократно плащане
+ </div>
+
+ <a href="/offers/company-website"
+ class="offer-package-button">
+
+ Виж пакетната оферта
 
  </a>
- </div>
 
  </div>
 
  </div>
 
- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-20">
+ </div>
 
- <div class="shadow-hover transition3 primary-bg border-radius12 p-4 h-100 text-center">
 
- <i class="fa-solid fa-cart-shopping theme-color mb-20" style="font-size: 38px;"></i>
+ <!-- E-commerce Start Package -->
+ <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12 mb-25">
 
- <h4 class="mb-15">
- <?php echo \htmlentities(__('offers_store_title')??'', ENT_QUOTES, 'UTF-8', false); ?>
+ <div class="offer-package shadow-hover transition3 primary-bg border-radius12 h-100 text-center">
 
- </h4>
+ <div class="offer-package-content">
 
- <p>
- <?php echo \htmlentities(__('offers_store_description')??'', ENT_QUOTES, 'UTF-8', false); ?>
+ <div class="offer-package-icon">
+ <i class="fa-solid fa-cart-shopping"></i>
+ </div>
 
+ <div class="offer-package-label">
+ Пакет „E-Commerce старт“
+ </div>
+
+ <h3 class="offer-package-title text-white">
+ Онлайн магазин
+ </h3>
+
+ <h5 class="offer-package-subtitle text-white">
+ Всичко необходимо в един пакет
+ </h5>
+
+ <p class="offer-package-description">
+ Цялостна система за онлайн търговия,
+ административен панел, Еконт, Speedy,
+ онлайн плащания и още.
  </p>
 
- <div class="header-btn mt-25">
- <a href="/offers/online-store" class="text-uppercase d-inline-block">
- <?php echo \htmlentities(__('offers_view_offer')??'', ENT_QUOTES, 'UTF-8', false); ?>
+ </div>
+
+ <div class="offer-package-pricing">
+
+ <div class="offer-package-old-price">
+ <del>2 500 €+</del>
+ </div>
+
+ <div class="offer-package-price">
+ 1 500 €
+ </div>
+
+ <div class="offer-package-savings">
+ Спестявате над 1 000 €
+ </div>
+
+ <div class="offer-package-payment">
+ 3 удобни плащания по 500 €
+ </div>
+
+ <a href="/offers/online-store"
+ class="offer-package-button">
+
+ Виж пакетната оферта
 
  </a>
- </div>
 
  </div>
 
@@ -161,41 +202,75 @@
 
  </div>
 
- <div class="row justify-content-center mt-30">
+ </div>
 
- <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12 col-12">
 
- <div class="shadow-hover transition3 primary-bg border-radius12 p-4 text-center">
+ <!-- Limited Availability Notice -->
+ <div class="row justify-content-center mt-10">
 
- <i class="fa-solid fa-gears theme-color mb-20" style="font-size: 38px;"></i>
+ <div class="col-xl-9 col-lg-10 col-md-12 col-12">
+
+ <div class="offer-availability text-center">
+
+ <i class="fa-regular fa-clock"></i>
+
+ <span>
+ Ограничен период. Ограничен брой нови проекти.
+ </span>
+
+ <i class="fa-regular fa-clock"></i>
+
+ </div>
+
+ </div>
+
+ </div>
+
+
+ <!-- Individual Solutions -->
+ <div class="row justify-content-center mt-50">
+
+ <div class="col-xl-10 col-lg-12 col-md-12 col-12">
+
+ <div class="shadow-hover transition3 primary-bg border-radius12 p-4 text-center offer-custom-package">
+
+ <i class="fa-solid fa-gears theme-color mb-20"
+ style="font-size: 38px;"></i>
 
  <span class="theme-color text-uppercase d-block mb-10">
- <?php echo \htmlentities(__('offers_custom_label')??'', ENT_QUOTES, 'UTF-8', false); ?>
-
+ Имате нужда от нещо по-специфично?
  </span>
 
  <h4 class="text-white mb-15">
- <?php echo \htmlentities(__('offers_custom_title')??'', ENT_QUOTES, 'UTF-8', false); ?>
-
+ Индивидуални решения и автоматизация за вашия бизнес
  </h4>
 
  <p class="mb-25">
- <?php echo \htmlentities(__('offers_custom_description')??'', ENT_QUOTES, 'UTF-8', false); ?>
-
+ Ако вашият бизнес има нужда от специализирано
+ уеб решение, индивидуална софтуерна система,
+ интеграция с външни услуги или автоматизация
+ на бизнес процеси, можем да изградим решение,
+ съобразено изцяло с вашите нужди.
  </p>
 
  <div class="header-btn">
- <a href="/contact" class="text-uppercase d-inline-block">
- <?php echo \htmlentities(__('offers_contact_button')??'', ENT_QUOTES, 'UTF-8', false); ?>
+
+ <a href="/contact"
+ class="text-uppercase d-inline-block">
+
+ Свържете се с мен
 
  </a>
- </div>
 
  </div>
 
  </div>
 
  </div>
+
+ </div>
+
+ <?php echo $this->runChild('components.contact-form'); ?>
 
  </div>
 

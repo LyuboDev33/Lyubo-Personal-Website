@@ -63,6 +63,80 @@
 
                 <div class="row service-wrappers mt-80">
 
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 projects-about">
+                        <div class="shadow-hover transition3 primary-bg border-radius10">
+                            <div class="d-flex flex-column">
+                                <div class="text-lg-center">
+                                    <div class="d-inline-block text-center position-relative mb-15 w-100">
+                                        <img class="position-relative z-index1" 
+                                            src="/assets/images/testimonial/yukon-testimonial.jpeg?v=<?php echo time(); ?>" alt="icon">
+                                        <div class="service-small-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute"></div>
+                                        <div class="service-large-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-text d-inline-block ml-xl-2">
+                                        <h3 class="mb-15">{{ __('project_yukon') }}</h3>
+                                    </div>
+                                    <div class="header-btn text-center d-lg-block pb-10">
+                                        <a target="_blank" 
+                                            href="https://lasoads.com/" 
+                                            class="text-uppercase d-inline-block">{{ __('visit_website') }}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 projects-about">
+                        <div class="shadow-hover transition3 primary-bg border-radius10">
+                            <div class="d-flex flex-column">
+                                <div class="text-lg-center">
+                                    <div class="d-inline-block text-center position-relative mb-15 w-100">
+                                        <img class="position-relative z-index1" 
+                                            src="/assets/images/testimonial/laso.jpeg?v=<?php echo time(); ?>" alt="icon">
+                                        <div class="service-small-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute"></div>
+                                        <div class="service-large-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-text d-inline-block ml-xl-2">
+                                        <h3 class="mb-15">{{ __('project_laso') }}</h3>
+                                    </div>
+                                    <div class="header-btn text-center d-lg-block pb-10">
+                                        <a target="_blank" 
+                                            href="https://lasoads.com/" 
+                                            class="text-uppercase d-inline-block">{{ __('visit_website') }}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 projects-about">
+                        <div class="shadow-hover transition3 primary-bg border-radius10">
+                            <div class="d-flex flex-column">
+                                <div class="text-lg-center">
+                                    <div class="d-inline-block text-center position-relative mb-15 w-100">
+                                        <img class="position-relative z-index1" src="/assets/images/testimonial/mira-testimonial.jpeg?v=<?php echo time(); ?>" alt="icon">
+                                        <div class="service-small-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute"></div>
+                                        <div class="service-large-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-text d-inline-block ml-xl-2">
+                                        <h3 class="mb-15">{{ __('project_mira_therapy') }}</h3>
+                                    </div>
+                                    <div class="header-btn text-center d-lg-block pb-10">
+                                        <a target="_blank" 
+                                            href="https://mira-therapy.com" 
+                                            class="text-uppercase d-inline-block">{{ __('visit_website') }}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 projects-about">
                         <div class="shadow-hover transition3 primary-bg border-radius10">
                             <div class="d-flex flex-column">
