@@ -8,5 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'eftec\\bladeone\\' => array($vendorDir . '/eftec/bladeone/lib'),
     'Pecee\\' => array($vendorDir . '/pecee/simple-router/src/Pecee'),
+    'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'App\\' => array($baseDir . '/app'),
 );

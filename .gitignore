@@ -1,0 +1,17 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Composer dependencies
+/vendor/
+
+# IDE configuration
+/.idea/
+/.vscode/
+
+# macOS files
+.DS_Store
+
+# Log files
+*.log

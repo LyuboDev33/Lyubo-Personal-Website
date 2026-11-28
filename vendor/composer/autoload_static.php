@@ -18,6 +18,7 @@ class ComposerStaticInit81a8c97a0e5abf0abb462913f4bef7b5
         'P' =>
         array (
             'Pecee\\' => 6,
+            'PHPMailer\\PHPMailer\\' => 20,
         ),
         'A' =>
         array (
@@ -33,6 +34,10 @@ class ComposerStaticInit81a8c97a0e5abf0abb462913f4bef7b5
         'Pecee\\' =>
         array (
             0 => __DIR__ . '/..' . '/pecee/simple-router/src/Pecee',
+        ),
+        'PHPMailer\\PHPMailer\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'App\\' =>
         array (

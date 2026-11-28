@@ -1,7 +1,8 @@
 {
   "require": {
     "pecee/simple-router": "^5.4",
-    "eftec/bladeone": "^4.19"
+    "eftec/bladeone": "^4.19",
+    "phpmailer/phpmailer": "^7.2"
   },
   "autoload": {
     "psr-4": {
