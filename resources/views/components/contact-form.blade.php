@@ -143,9 +143,6 @@
 
                 success: function(response) {
 
-                    console.log(response);
-                    return;
-
                     responseBox
                         .addClass("inquiry-success")
                         .text(response.message)
